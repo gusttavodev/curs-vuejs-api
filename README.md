@@ -10,4 +10,4 @@ npm run serve --watch
 npm install axios
 
 ```
-- Selecione VueJs 2 tempalte no Vue CLI
+- Selecione VueJs 2 template no Vue CLI
