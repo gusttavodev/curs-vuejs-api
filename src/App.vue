@@ -3,20 +3,24 @@
         <TheHeader />
 
         <div class="px-3 py-10 md:px-10">
-            <HelloWorld msg="Welcome to Your Vue.js App"/>
+            <ProductsIndex/>
+            <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
         </div>
     </div>
 </template>
 
 <script>
     import TheHeader from "./components/Partials/TheHeader.vue"
-    import HelloWorld from './components/HelloWorld.vue'
+    import ProductsIndex from './components/Products/Index.vue'
+    // import HelloWorld from './components/HelloWorld.vue'
+
     export default {
         name: 'App',
 
         components: {
           TheHeader,
-          HelloWorld
+          ProductsIndex
+        //   HelloWorld
         },
 
         data() {
