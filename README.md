@@ -1,24 +1,13 @@
-# curso-vuejs-api
+https://cli.vuejs.org/guide/installation.html
 
-## Project setup
-```
-npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+npm install -g @vue/cli
+vue --version
+vue create curso-vuejs-api
+cd curso-vuejs-api
+npm run serve --watch
+npm install axios
 
-### Compiles and minifies for production
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Selecione VueJs 2 tempalte no Vue CLI
