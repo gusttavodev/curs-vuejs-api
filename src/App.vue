@@ -3,7 +3,10 @@
         <TheHeader />
 
         <div class="px-3 py-10 md:px-10">
-            <ProductsIndex/>
+            <ProductForm
+                @onCreate="onCreateProduct"
+            />
+            <ProductsIndex ref="productsIndex"/>
             <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
         </div>
     </div>
@@ -12,6 +15,7 @@
 <script>
     import TheHeader from "./components/Partials/TheHeader.vue"
     import ProductsIndex from './components/Products/Index.vue'
+    import ProductForm from './components/Products/Form.vue'
     // import HelloWorld from './components/HelloWorld.vue'
 
     export default {
@@ -19,7 +23,8 @@
 
         components: {
           TheHeader,
-          ProductsIndex
+          ProductsIndex,
+          ProductForm
         //   HelloWorld
         },
 
@@ -28,6 +33,10 @@
             };
         },
 
-        methods: {},
+        methods: {
+            async onCreateProduct(){
+                await this.$refs.productsIndex.getProducts()
+            }
+        },
     };
 </script>

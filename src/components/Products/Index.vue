@@ -1,6 +1,6 @@
 <template>
     <div class="overflow-x-auto">
-        <table class="rounded-t-lg m-5 w-5/6 mx-auto bg-gray-200 text-gray-800">
+        <table class="rounded-t-lg m-5 w-5/6 mx-auto">
             <thead>
                 <tr slot="table-title" class="bg-gray-900 border-gray-200">
                     <th class="px-16 py-2">

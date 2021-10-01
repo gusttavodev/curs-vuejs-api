@@ -14,3 +14,10 @@ npm install axios
 
 # Instalando TailWind CSS
 https://dev.to/arielmejiadev/use-tailwind-2-with-vue-cli-2md6
+
+
+# Copiar o layout
+
+```
+npm i axios
+```
